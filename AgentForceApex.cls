@@ -26,7 +26,7 @@ public class AgentForceApex {
         RecordDetails recordDetails = (RecordDetails) JSON.deserialize(jsonString, RecordDetails.class);
         
       	//Create Custom Object 
-		Test_AI__c ai = new test_AI__c();
+	Test_AI__c ai = new test_AI__c();
         ai.name = recordDetails.name;
         ai.Phone__c = recordDetails.phone;
         ai.Email__c = recordDetails.email;
